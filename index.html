@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="src/main/resources/css/jquery.toastmessage.css">
+	<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="src/main/javascript/jquery.toastmessage.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+
+		$('#toat').click(function(){
+			$().toastmessage('showNoticeToast', 'some message here');
+		});
+
+		$('#bien').click(function(){
+			$().toastmessage('showSuccessToast', "hecho");
+		});
+
+		$('#warning').click(function(){
+			$().toastmessage('showWarningToast', "warning");
+		});
+
+		$('#error').click(function(){
+			$().toastmessage('showErrorToast', "Error");
+		});
+
+		
+
+
+
+
+
+
+	});
+
+
+	</script>
+
+
+	<div id="toat">toat</div>
+	<div id="bien" >bien</div>
+	<div id="warning">warning</div>
+	<div id="error">error</div>
+
+
+
+</head>
+<body>
+	
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
